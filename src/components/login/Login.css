@@ -1,0 +1,66 @@
+.logins{
+    width: 100vw;
+}
+.login_wrapper{
+    width: 550px;
+    margin: auto;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 4rem ;
+    box-sizing: border-box;
+}
+.login_wrapper .input_wrapper{
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.input_wrapper label{
+    font-size: 1.2rem;
+}
+.input_wrapper input{
+    padding: .5rem;
+    border: 3px solid;
+}
+.input_wrapper .err{
+    color:red;
+    position: absolute;
+    bottom:-2rem;
+    left:0;
+    opacity: 1;
+    font-size: .8rem;
+}
+.input_wrapper .showErr{
+    opacity: 1;
+}
+.login-option{
+    border: none;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+.login-option .forgot-password a{
+    text-decoration: underline;
+}
+.login-btn{
+    border: 3px solid;
+    padding: .5rem 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.login_wrapper a{
+    text-decoration: underline;
+    color: blue;
+}
