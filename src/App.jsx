@@ -5,8 +5,8 @@ import RegisterAuction from "./components/registerAuction/RegisterAuction";
 function App() {
 	return (
     <Routes>
-      <Route path="/" element={<Login/>} />
-      <Route path="/register" element={<RegisterAuction/>} />
+      <Route path="/" element={<RegisterAuction/>} />
+      <Route path="/abc" element={<Login/>} />
     </Routes>
   );
 }
